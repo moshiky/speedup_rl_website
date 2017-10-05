@@ -1,0 +1,13 @@
+.source_code_table {
+    width: inherit;
+    margin: 10px;
+    table-layout: fixed;
+}
+
+.source_code_td {
+    border: solid #b5b5b5 4px;
+    border-collapse: collapse;
+    border-radius: 10px;
+
+    text-align: center;
+}
