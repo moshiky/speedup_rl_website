@@ -110,8 +110,134 @@
             </div>
 
 
-            <!-- PAGE CONTENT HERE -->
+            <div class="wrap" align="center" style="padding: 20px">
+                <div style="width:1200px; margin: 0 auto; float: none">
+                    <div class="wrap" style="border: solid #858585 6px; padding: 10px">
+                        <h2><b>Pursuit experiment TLX results</b></h2>
+                        <div style="margin: 20px">
+                            <div style="margin: 15px">
+                                <img src="./images/pursuit_tlx_results_graph.png" />
+                            </div>
+                            <a class="button button-stripe" href="./additional_files/pursuit_tlx_results.csv" target="_blank">
+                                Download full TLX questionnaire results (.csv)
+                            </a>
+                        </div>
+                        <div>
+                            <h3><b><u>ANOVA test results:</u></b></h3>
+                            <div style="margin: 10px">
+                                <b>Summary of data</b>
+                                <table style="border: solid #565656 4px; padding: 5px">
+                                    <tr style="font-weight: bold">
+                                        <th></th><th>Abstraction</th><th>Reward Shaping</th><th>Similarities</th><th>Total</th>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: bold;">N</td><td>16</td><td>16</td><td>16</td><td>48</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: bold;">∑X</td><td>648.3333</td><td>579.1667</td><td>872.5</td><td>2100</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: bold;">Mean</td><td>40.5208</td><td>36.1979</td><td>54.5312</td><td>43.75</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: bold;">∑X<sup>2</sup></td><td>29241.6667</td><td>25597.9167</td><td>49709.0278</td><td>104548.6111</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: bold;">Std.Dev.</td><td>14.0728</td><td>17.5752</td><td>11.9178</td><td>16.4211</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div style="margin: 10px">
+                                <b>Result details</b>
+                                <table style="border: solid #565656 4px; padding: 5px">
+                                    <tr style="font-weight: bold">
+                                        <th>Source</th><th>SS</th><th>df</th><th>MS</th>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: bold">Between-treatments</td><td>2939.1493</td><td>2</td><td>1469.5747</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: bold">Within-treatments</td><td>9734.4618</td><td>45</td><td>216.3214</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: bold">Total</td><td>12673.6111</td><td>47</td><td></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div style="margin: 10px">
+                                The f-ratio value is 6.79348 <br />
+                                The p-value is 0.002641 <br />
+                                The result is significant at p < 0.05
+                            </div>
+                        </div>
+                        <div style="margin-top: 40px">
+                            <h3><b><u>Paired T-Test results:</u></b></h3>
+                            <div style="margin-top: 20px">
+                                <table style="border: solid #565656 4px; padding: 5px">
+                                    <tr style="font-weight: bold">
+                                        <th>Ex.1 type</th>
+                                        <th>Ex.2 type</th>
+                                        <th>P value</th>
+                                        <th>Statistically significant</th>
+                                        <th>Means diff.</th>
+                                        <th>Interval range</th>
+                                        <th>t</th>
+                                        <th>df</th>
+                                        <th>Diff. Std. Err.</th>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: bold;">Abstraction</td>
+                                        <td style="font-weight: bold;">Reward Shaping</td>
+                                        <td>0.3807</td>
+                                        <td style="color: red">No</td>
+                                        <td>4.323</td>
+                                        <td>-5.879 -- 14.525</td>
+                                        <td>0.9031</td>
+                                        <td>15</td>
+                                        <td>4.787</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: bold;">Abstraction</td>
+                                        <td style="font-weight: bold;">Similarities</td>
+                                        <td>0.0054</td>
+                                        <td style="color: green">Yes</td>
+                                        <td>-14.0104</td>
+                                        <td>-23.194 -- -4.826</td>
+                                        <td>3.2516</td>
+                                        <td>15</td>
+                                        <td>4.309</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: bold;">Reward Shaping</td>
+                                        <td style="font-weight: bold;">Similarities</td>
+                                        <td>0.0010</td>
+                                        <td style="color: green">Yes</td>
+                                        <td>-18.3333</td>
+                                        <td>-27.971 -- -8.696</td>
+                                        <td>4.0545</td>
+                                        <td>15</td>
+                                        <td>4.522</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="wrap" align="center" style="padding: 20px">
+                <div style="width:1200px; margin: 0 auto; float: none">
+                    <div class="wrap" style="border: solid #858585 6px; padding: 10px">
+                        <h2><b>Pursuit experiment custom questionnaire results</b></h2>
+                        <div style="margin: 15px">
+                            <img src="./images/pursuit_custom_questionnaire_results_graph.png" />
+                        </div>
+                        <a class="button button-stripe" href="./additional_files/pursuit_custom_q_results.csv" target="_blank">
+                            Download full questionnaire results (.csv)
+                        </a>
+                    </div>
+                </div>
+            </div>
 
             <div class="spanning">
                 <div class="comments clearfix" style="padding:50px 0 0 0;">

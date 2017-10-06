@@ -83,6 +83,15 @@ table {
     border-spacing: 0;
 }
 
+td, th, tr, tbody {
+    border: inherit;
+    padding: inherit;
+}
+
+th {
+    font-weight: inherit;
+}
+
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
