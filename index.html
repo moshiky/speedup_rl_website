@@ -35,7 +35,7 @@
                 z-index: 100;
                 padding: 20px;
                 background: rgb(100, 100, 100); /* for IE */
-                background: rgba(100, 100, 100, 0.35);
+                background: rgba(100, 100, 100, 0.5);
             }
 
         </style>
@@ -73,19 +73,17 @@
                                             class="initial_char">K</span><span>nowledge in </span> <span
                                             class="initial_char">T</span><span>abular</span> <span class="initial_char">R</span><span>einforcement</span>
                                         <span class="initial_char">L</span><span>earning</span></h1>
-                                    <p style="color:#ccc;text-shadow: 0px 0px 0px black, 1em 1em 1em black;">Reinforcement
-                                        Learning (RL) can be extremely effective
+                                    <p style="color:#ccc;text-shadow: 0px 0px 0px black, 1em 1em 1em black;">
+                                        <b>Reinforcement Learning (RL)</b> can be extremely effective
                                         in solving complex, real-world problems.
                                         However, injecting human knowledge into an RL
-                                        agent may require extensive effort on the human designer’s
-                                        part. To date, human factors are generally
+                                        agent may <b>require extensive effort on the human designer’s
+                                        part.</b> To date, human factors are generally
                                         not considered in the development and evaluation
-                                        of possible approaches. In this paper, we propose
-                                        and evaluate a novel method, based on human psychology
-                                        literature, which we show to be both effective
-                                        and efficient, for both expert and non-expert
-                                        designers, in injecting human knowledge for speeding
-                                        up tabular RL
+                                        of possible approaches. In this project, we propose
+                                        and evaluate a <b>novel method</b>, based on human psychology
+                                        literature, and compare State Of The Art speedup methods using
+                                        a <b>first of its kind human study.</b>
                                     </p>
                                 </div>
 
@@ -134,41 +132,30 @@
                 <div class="wrap">
                     <div class="simple-content" style="width:500px;">
                         <h3>Non-Expert Study</h3>
-                        Prior to the experiment, all participants participated in an
-                        hour-long tutorial reminding them of the basics of Q-learning
-                        and explaining the Simple Robotic Soccer task’s specification.
-                        Participants were given two python codes: First, an
-                        implemented QA agent in which participants had to design
-                        and implement a state-space abstraction. Specifically, the participants
-                        were requested to implement a single function that
-                        translates the na¨ıve representation to their own state-space
-                        representation. Second, participants were given a QS agent
-                        in which they had to implement a similarity function.
+                        We amid at evaluating the 'real' effectiveness and efficiency of State Of The Art
+                        RL speedup methods by examining the performance of large number of programmers with
+                        average programming skills and basic understanding of the RL principles.<br />
+                        Prior to the experiment, all participants introduced with a tutorial reminding them of
+                        the basics of Q-learning and explaining task’s specification.
+                        Participants attended three meetings, a week apart, in which they implemented
+                        their domain-specific knowledge how to accelerate the RL agent learning by using
+                        a different speedup method each time. <br />
+                        The participants requested to accelerate the learning of on one of three domains-
+                        the Simple Robotic Soccer (simple), Pursuit (a bit harder) and MarioAI (very complex) games.
                     </div>
                     <div class="simple-img">
-                        <img src="images/graphs/SRS.png" style="max-width:720px; width:400px;padding-top: 45px;">
-                        <img src="images/graphs/Chase.png" style="max-width:720px; width:400px;padding-top: 45px;">
-                        <img src="images/graphs/Mario.png" style="max-width:720px; width:400px;padding-top: 45px;">
+                        <img src="images/students.png" style="max-width:720px; width:500px; padding-top: 45px; background: white">
                     </div>
                 </div>
             </div>
 
 
-            <div class="spanning">
-
-                <div class="video-title" id="source_code">Source</div>
-
-                <div class="promo clearfix" style="padding:60px 0 0 0;">
-                    <div class="wrap">
-                        <div class="" style="width: 100%">
-                            The evaluation of actual running times was done on a
-                            personal computer with 16 GB RAM and a CPU with 4
-                            cores, each operating at 4 GHz. All technical parameters
-                            used in the three tasks in this study (learning rates,
-                            exploration type, eligibility trace parameter, etc.) are
-                            fully specified in the code, that available at <a href="./source_code" target="_blank">LINK</a>
-                        </div>
-                        <br>
+            <div class="simple clearfix">
+                <div class="wrap">
+                    <div class="simple-content" style="width:500px;">
+                        <h3>Findings and results</h3>
+                        TO BE COMPLETED. <br />
+                        NEED TO ADD FINAL RESULTS GRAPHS
                     </div>
                 </div>
             </div>
